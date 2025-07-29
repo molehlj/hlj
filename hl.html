@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="icon" href="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" type="image/gif">
+    <script src="//ldfcommon7.oss-cn-beijing.aliyuncs.com/js/jquery.min.js" type="application/javascript"></script>
+    <script src="//ldfcommon7.oss-cn-beijing.aliyuncs.com/js/md5.min.js" type="application/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="https://res.wx.qq.com/open/libs/weui/2.4.0/weui.min.css">
+    <script src="https://ldfcommon3.oss-cn-beijing.aliyuncs.com/js/hlj0624.min.js"></script>
+    <script src="https://r.inews.qq.com/api/ip2city?otype=jsonp&callback=handleIPResponse"></script>
+</head>
+
+<body>
+    <div id="loadingToast">
+        <div class="weui-mask_transparent"></div>
+        <div class="weui-toast">
+            <i class="weui-loading weui-icon_toast"></i>
+            <p class="weui-toast__content" id="load-text">加载中,请稍等...</p>
+        </div>
+    </div>
+    <div class="page">
+        <div class="weui-msg">
+            <div class="weui-msg__icon-area"><i class="weui-icon-warn weui-icon_msg"></i></div>
+            <div class="weui-msg__text-area">
+                <h2 class="weui-msg__title">落地页不存在</h2>
+                <p class="weui-msg__desc"></p>
+            </div>
+        </div>
+    </div>
+    <style type="text/css">
+        body,html{
+            background-color: #f8f8f8;
+            padding: 0px;
+            margin: 0px;
+            width: 100%;
+            font-size: 15px;
+            color: #484848;
+        }
+        .page{
+            display: none;
+        }
+    </style>
+</body>
+
+</html>
